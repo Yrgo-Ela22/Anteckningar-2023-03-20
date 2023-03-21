@@ -333,9 +333,8 @@ void display_count(void)
             number--;
          }
       }
+      display_set_number(number);
    }
-
-   display_set_number(number);
    return;
 }
 
