@@ -144,7 +144,7 @@ void display_count(void);
 *
 *                              - new_direction: Ny uppräkningsriktning.
 ********************************************************************************/
-void set_count_direction(const enum display_count_direction new_direction);
+void display_set_count_direction(const enum display_count_direction new_direction);
 
 /********************************************************************************
 * display_toggle_count_direction: Togglar uppräkningsriktning för tal som skrivs
